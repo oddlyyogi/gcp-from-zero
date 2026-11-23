@@ -1,0 +1,26 @@
+name: ci
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Python files compile (every chapter)
+        run: python -m compileall -q app functions scripts chapters
+      - name: Shell scripts parse (every chapter)
+        run: for f in $(find . -name '*.sh' -not -path './.git/*'); do bash -n "$f"; done
+      - name: JSON files are valid (every chapter)
+        run: for f in $(find . -name '*.json' -not -path './.git/*'); do python -m json.tool "$f" > /dev/null || exit 1; done
+      - name: Unit tests (if present)
+        run: |
+          if [ -d tests ]; then
+            pip install -q -r requirements.txt -r requirements-dev.txt
+            python -m pytest -q tests
+          fi

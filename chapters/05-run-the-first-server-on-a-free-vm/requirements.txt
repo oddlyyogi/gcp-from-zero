@@ -1,0 +1,4 @@
+google-cloud-storage==3.17.1
+fastapi==0.165.0
+uvicorn==0.54.0
+python-multipart==0.0.34
