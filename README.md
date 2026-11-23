@@ -28,7 +28,7 @@ the apps use Application Default Credentials and attached service accounts.
 | 12 | Know When the App Breaks Before Users Do | [chapters/12-know-when-the-app-breaks-before-users-do](chapters/12-know-when-the-app-breaks-before-users-do) |
 | 13 | Rebuild the Whole Stack From Code | [chapters/13-rebuild-the-whole-stack-from-code](chapters/13-rebuild-the-whole-stack-from-code) |
 | 14 | Deploy on Every Push Without Keys | [chapters/14-deploy-on-every-push-without-keys](chapters/14-deploy-on-every-push-without-keys) |
-| 15 | Lock It Down and Leave Nothing Billing | coming soon |
+| 15 | Lock It Down and Leave Nothing Billing | [chapters/15-lock-it-down-and-leave-nothing-billing](chapters/15-lock-it-down-and-leave-nothing-billing) |
 
 ## Try it
 
