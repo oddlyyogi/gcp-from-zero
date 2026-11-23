@@ -19,15 +19,15 @@ the apps use Application Default Credentials and attached service accounts.
 | 3 | Give People and Apps Only the Access They Need | [chapters/03-give-people-and-apps-only-the-access-they-need](chapters/03-give-people-and-apps-only-the-access-they-need) |
 | 4 | Build a Private Network for the App | [chapters/04-build-a-private-network-for-the-app](chapters/04-build-a-private-network-for-the-app) |
 | 5 | Run the First Server on a Free VM | [chapters/05-run-the-first-server-on-a-free-vm](chapters/05-run-the-first-server-on-a-free-vm) |
-| 6 | Store User Uploads Safely | coming soon |
-| 7 | Package the App Once, Run It Anywhere | coming soon |
-| 8 | Ship the API Without Managing Servers | coming soon |
-| 9 | Save App Data in a Serverless Database | coming soon |
-| 10 | React to Every Upload Automatically | coming soon |
-| 11 | Answer Business Questions From App Events | coming soon |
-| 12 | Know When the App Breaks Before Users Do | coming soon |
-| 13 | Rebuild the Whole Stack From Code | coming soon |
-| 14 | Deploy on Every Push Without Keys | coming soon |
+| 6 | Store User Uploads Safely | [chapters/06-store-user-uploads-safely](chapters/06-store-user-uploads-safely) |
+| 7 | Package the App Once, Run It Anywhere | [chapters/07-package-the-app-once-run-it-anywhere](chapters/07-package-the-app-once-run-it-anywhere) |
+| 8 | Ship the API Without Managing Servers | [chapters/08-ship-the-api-without-managing-servers](chapters/08-ship-the-api-without-managing-servers) |
+| 9 | Save App Data in a Serverless Database | [chapters/09-save-app-data-in-a-serverless-database](chapters/09-save-app-data-in-a-serverless-database) |
+| 10 | React to Every Upload Automatically | [chapters/10-react-to-every-upload-automatically](chapters/10-react-to-every-upload-automatically) |
+| 11 | Answer Business Questions From App Events | [chapters/11-answer-business-questions-from-app-events](chapters/11-answer-business-questions-from-app-events) |
+| 12 | Know When the App Breaks Before Users Do | [chapters/12-know-when-the-app-breaks-before-users-do](chapters/12-know-when-the-app-breaks-before-users-do) |
+| 13 | Rebuild the Whole Stack From Code | [chapters/13-rebuild-the-whole-stack-from-code](chapters/13-rebuild-the-whole-stack-from-code) |
+| 14 | Deploy on Every Push Without Keys | [chapters/14-deploy-on-every-push-without-keys](chapters/14-deploy-on-every-push-without-keys) |
 | 15 | Lock It Down and Leave Nothing Billing | coming soon |
 
 ## Try it

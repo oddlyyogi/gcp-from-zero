@@ -1,0 +1,10 @@
+[
+  {"name": "photo_id", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "owner", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "bytes", "type": "INTEGER"},
+  {"name": "content_type", "type": "STRING"},
+  {"name": "subscription_name", "type": "STRING"},
+  {"name": "message_id", "type": "STRING"},
+  {"name": "publish_time", "type": "TIMESTAMP"},
+  {"name": "attributes", "type": "JSON"}
+]

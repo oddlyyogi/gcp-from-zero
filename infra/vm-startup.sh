@@ -31,6 +31,9 @@ Restart=always
 WantedBy=multi-user.target
 EOF
 
+mkdir -p /etc/systemd/system/snapshelf.service.d
+printf "[Service]\nEnvironment=BUCKET=%s\n" "$(get bucket)" \
+  > /etc/systemd/system/snapshelf.service.d/env.conf
 systemctl daemon-reload
 systemctl enable snapshelf
 systemctl restart snapshelf

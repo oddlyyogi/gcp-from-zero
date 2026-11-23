@@ -1,0 +1,18 @@
+{
+  "lifecycle": {
+    "rule": [
+      {
+        "action": {"type": "Delete"},
+        "condition": {"daysSinceNoncurrentTime": 7}
+      },
+      {
+        "action": {"type": "Delete"},
+        "condition": {"numNewerVersions": 2}
+      },
+      {
+        "action": {"type": "AbortIncompleteMultipartUpload"},
+        "condition": {"age": 1}
+      }
+    ]
+  }
+}

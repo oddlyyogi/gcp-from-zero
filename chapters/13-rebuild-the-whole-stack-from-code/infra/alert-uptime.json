@@ -1,0 +1,20 @@
+{
+  "displayName": "SnapShelf health check failing",
+  "combiner": "OR",
+  "conditions": [{
+    "displayName": "health failed",
+    "conditionThreshold": {
+      "filter": "metric.type=\"monitoring.googleapis.com/uptime_check/check_passed\" AND resource.type=\"uptime_url\" AND metric.label.check_id=\"CHECK_ID\"",
+      "aggregations": [{
+        "alignmentPeriod": "300s",
+        "perSeriesAligner": "ALIGN_NEXT_OLDER",
+        "crossSeriesReducer": "REDUCE_COUNT_FALSE",
+        "groupByFields": ["resource.label.host"]
+      }],
+      "comparison": "COMPARISON_GT",
+      "thresholdValue": 1,
+      "duration": "0s"
+    }
+  }],
+  "notificationChannels": ["CHANNEL"]
+}
